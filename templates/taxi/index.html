@@ -1,13 +1,4 @@
 {% extends "base.html" %}
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Taxi Service</title>
-
-  {% include "includes/sidebar.html" %}
-</head>
-<body>
 {% block content %}
   <ul>
   <li>Number of drivers: {{ num_drivers }}</li>
@@ -15,5 +6,3 @@
   <li>Number of cars: {{ num_cars }}</li>
 </ul>
 {% endblock %}
-</body>
-</html>
